@@ -7,7 +7,7 @@ function App() {
   return (
     <main className="p-4">
       <Sanjaya />
-      <Button>click me</Button>
+      <Button>click me now</Button>
     </main>
   );
 }
