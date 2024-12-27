@@ -15,10 +15,10 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 
-function App() {
+function HomePage() {
   return (
     <main className="p-4">
-      <Button variant="destructive">Click Me</Button>
+      <Button variant="destructive">sanjaya</Button>
       <Button variant="default">Click Me</Button>
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
@@ -44,4 +44,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;
