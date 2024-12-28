@@ -1,4 +1,6 @@
+import Navigation from "@/components/shared/Navigation";
 import { Button } from "@/components/ui/button";
+
 import {
   Accordion,
   AccordionContent,
@@ -18,7 +20,7 @@ import {
 function HomePage() {
   return (
     <main className="p-4">
-      <Button variant="destructive">sanjaya</Button>
+      {/* <Button variant="destructive">sanjaya</Button>
       <Button variant="default">Click Me</Button>
       <Accordion type="single" collapsible>
         <AccordionItem value="item-1">
@@ -39,7 +41,7 @@ function HomePage() {
         <CardFooter>
           <p>Card Footer</p>
         </CardFooter>
-      </Card>
+      </Card> */}
     </main>
   );
 }
