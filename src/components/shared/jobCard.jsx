@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 function JobCard(props) {
   return (
     <div className="mt-4 flex flex-col gap-y-8">
-      <Link to={`/job/123`} className="block">
+      <Link to={`/job/${props._id}`} className="block">
         <Card>
           <CardHeader>
             <CardTitle>{props.title}</CardTitle>
