@@ -32,6 +32,10 @@ function JobPage() {
     console.log(formData);
   };
 
+  function handleClick() {
+    alert("cleared successfully!");
+  }
+
   return (
     <div>
       <div>
@@ -78,7 +82,7 @@ function JobPage() {
             }
           />
         </div>
-        <div className="flex flex-col gap-y-4">
+        <div className="flex flex-col  gap-y-4">
           <Label>QUESTION 3</Label>
           <Textarea
             required
@@ -94,14 +98,15 @@ function JobPage() {
           </Button>
           <Button
             type="button"
-            onClick={() =>
+            onClick={() => {
               setFormData({
                 fullName: "",
                 a1: "",
                 a2: "",
                 a3: "",
-              })
-            }
+              });
+              handleClick();
+            }}
             className=" w-fit"
             variant="outline"
           >
