@@ -11,6 +11,8 @@ import { Briefcase, MapPin } from "lucide-react";
 
 import { Link } from "react-router-dom";
 
+import JobSection from "@/pages/homepage/components/jobSection";
+
 function JobCard(props) {
   return (
     <div className="mt-4 flex flex-col gap-y-8">
